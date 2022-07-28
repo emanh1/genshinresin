@@ -5,4 +5,4 @@ requirements : [genshin.py](https://thesadru.github.io/genshin.py)
 
 [how to get your credentials](https://thesadru.github.io/genshin.py/authentication)
 
-replace the variables with your info
+in resin.py, replace the variables with your info
