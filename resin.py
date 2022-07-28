@@ -3,9 +3,9 @@ import genshin
 import os
 
 async def main():
-    ltuid = your_ltuid
+    ltuid = your_hoyolab_uid
     ltoken = "your_ltoken"
-    uid = your_uid
+    uid = your_genshin_uid
     cookies = {"ltuid": ltuid, "ltoken": ltoken}
     client = genshin.GenshinClient(cookies)
     notes = await client.get_notes(uid)
